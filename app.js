@@ -396,12 +396,100 @@
 // }
 // document.write(factorial(5));
 
-//7
-function countNumber(start, end){
-    var num1=start;
-    var num2=end;
-    for (var i=num1;i<=num2;i++){
-        document.write(i+"<br>");
-    }
-}
-countNumber(2,10);
+// //7
+// function countNumber(start, end){
+//     var num1=start;
+//     var num2=end;
+//     for (var i=num1;i<=num2;i++){
+//         document.write(i+"<br>");
+//     }
+// }
+// countNumber(2,10);
+
+// //8
+// function hyotenuse (){
+//     var base=prompt("Enter Base: ");
+//     var perpendicular=prompt("Enter Perpendicular: ");
+//     var hyotenuse=(base*base) + (perpendicular*perpendicular);
+//     return hyotenuse;
+// }
+
+// document.write(hyotenuse());
+
+// //9
+// function rectangle(a,b){
+//     //var width=a; height=b;
+//     var width=prompt("Enter Width: ");
+//     var height=prompt("Enter Height: ");
+//     var A=width*height;
+//     return A;
+// }
+// document.write(rectangle());
+
+// //10
+// function checkPalindrome (a){
+//     var result=0;
+//     var splitInput=a.split('').reverse();
+//     for (var i=0;i<a.length;i++){
+//     if(splitInput[i]===a[i]){
+//         result++;
+//      }
+// }
+// if(result==0){
+//     document.write("your input is not palindrome.");
+// }
+// else if(result=>1){
+//     document.write("your input is palindrome.");
+// }
+// }
+// checkPalindrome("madam");
+
+// //11
+// function titleCase(str) {
+
+// var myString = str.toLowerCase().split(' ');
+// for (var i = 0; i < myString.length; i++) {
+//     var subString = myString[i].split('');
+//     for (var j = 0; j < subString.length; j++) {
+//         subString[0] = subString[0].toUpperCase();
+//     }
+//     myString[i] = subString.join('');
+//     }
+//     return myString.join(' '); }
+
+// document.write(titleCase("the quick brown fox"));
+
+// //12
+// function longestString(str){
+//     var string=str.split(" ");
+//     var longest=0;
+//     var word=null;
+//     for (var i=0; i<string.length-1; i++){
+//         longest < string[i].length;
+//         longest = string[i].length;
+//         word=string[i];
+//     }
+//     return word;
+// }
+// document.write(longestString("Web Development Tutorial"));
+
+
+// //13
+// function findOccurance(string, a){
+//     return string.toLowerCase().match(/o/g).length;
+
+// }
+// document.write(findOccurance("JSResourceS.com", "o"));
+
+// //14
+// function Circle(radius){
+//     var r=radius;
+//     var pie=3.14;
+//     var circumference = 2*pie*r;
+//     var area = pie*(r*r);
+
+//     document.write("The Circumference of the Circle is: "+circumference+"<br>");
+//     document.write("The Area of the Circle is: "+area+"<br>");
+// }
+
+// Circle(2);
